@@ -1,0 +1,6 @@
+streamlit
+google-generativeai
+Pillow
+pytesseract
+pdfplumber
+# python-dotenv # Only needed for local .env files, not for Streamlit secrets
