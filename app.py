@@ -14,6 +14,7 @@ import io
 # If tesseract is not in your PATH, you might need to uncomment and set this:
 # pytesseract.pytesseract.tesseract_cmd = r'/usr/local/bin/tesseract' # Example for macOS
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' # Example for Windows
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 # --- Configure Gemini API ---
 # Use st.secrets for secure API key handling
